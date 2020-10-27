@@ -1,61 +1,147 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DSC McMaster U</title>
-	<link rel="icon" type="image/png" href="https://ubcdsc.com/src/images/icon.png">
-	<style type="text/css">
-		body,h1,h2,h3,h4,h5,h6 {
-			font-family: "Lato", sans-serif;
-			margin: auto;
-			text-align: center;
-			align-items: center;
-		}
-		
-		.background {
-			background-image:url("https://dsccu.in/images/tech1.png");
-			background-attachment:fixed;
-			background-size:cover;
-            		height: 100vh;
-		}
-		
-		.overlay {
-			background-color:#eeeeee99;
-            		height: inherit;
-		}
-	
-	</style>
+	<link rel="stylesheet" href="index.css">
+	<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="background">
-<div class="overlay">
-<h1>Developer Student Clubs McMaster University</h1>
-<h2>Website coming soon!</h2><br/>
-<h3>
-	For now, here are some links:
-</h3>
-<p>
-	<a href="https://www.notion.so/dscmcmasteru/DSC-McMasterU-Wiki-f39c9ea5e7b141fba08cfc01588d92c4">Wiki.</a> All the info you need to know about DSC McMaster U.
-</p>
-<p>
-	<a href="https://docs.google.com/forms/d/e/1FAIpQLScjcm8b9ay0-JFcANSH_-A19zO7-KZK40_ppwO2Pno88eTh7A/viewform">
-	Sign up form for general members</a>
-</p>
-<p>
-	<a href="https://dsc.community.dev/mcmaster-university">Event Platform Page.</a> This will contain all upcoming events. You can also sign up for our mailing list by clicking "Join" on the Event Platform page. 
-</p>
-<p>
-	<a href="https://www.youtube.com/watch?v=99ABuhlS6BI">Information Session recording</a>
-</p>
-<p>
-	<a href="https://developers.google.com/community/dsc">About Google DSC</a>
-</p>
-<h3>
-	Connect with us:
-</h3>
-<p><a href="https://www.facebook.com/DSCMcMasterU">Facebook</a></p>
-<p><a href="https://www.instagram.com/dscmcmasteru">Instagram</a></p>
-<p><a href="https://www.linkedin.com/company/dscmcmasteru/">LinkedIn</a></p>
-<p><a href="mailto:dsc.mcmasteru@gmail.com">dsc.mcmasteru@gmail.com</a></p>
-	</div></div>
+	<div class="relative bg-white overflow-hidden">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+
+      <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
+          <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+            <div class="flex items-center justify-between w-full md:w-auto">
+              <a href="#" aria-label="Home">
+                <img class="h-12 w-auto sm:h-18" src="../images/DSCLogo.png" alt="Logo">
+              </a>
+              <div class="-mr-2 flex items-center md:hidden">
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
+                  <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:block md:ml-10 md:pr-4">
+            <a href="#" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
+            <a href="https://developers.google.com/community/dsc" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
+            <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Team</a>
+            <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Contact</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScjcm8b9ay0-JFcANSH_-A19zO7-KZK40_ppwO2Pno88eTh7A/viewform" class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Sign up</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <div class="rounded-lg shadow-md">
+          <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div>
+                <img class="h-12 w-auto" src="../images/DSCLogo.png" alt="">
+              </div>
+              <div class="-mr-2">
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Close menu">
+                  <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="px-2 pt-2 pb-3">
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Home</a>
+              <a href="https://developers.google.com/community/dsc" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">About us</a>
+              <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Team</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScjcm8b9ay0-JFcANSH_-A19zO7-KZK40_ppwO2Pno88eTh7A/viewform" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Contact</a>
+            </div>
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScjcm8b9ay0-JFcANSH_-A19zO7-KZK40_ppwO2Pno88eTh7A/viewform" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out" role="menuitem">
+                Sign up
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div class="sm:text-center lg:text-left">
+          <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-5xl">
+            Developer Student Clubs
+            <br class="xl:hidden">
+            <span class="text-indigo-600">McMaster University</span>
+          </h2>
+          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div class="rounded-md shadow">
+              <a href="https://dsc.community.dev/mcmaster-university" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                Event Platform
+              </a>
+            </div>
+            <div class="mt-3 sm:mt-0 sm:ml-3">
+              <a href="https://www.youtube.com/watch?v=99ABuhlS6BI" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-900 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                Info Session recording
+              </a>
+			</div>
+			<div class="mt-3 sm:mt-0 sm:ml-3">
+				<a href="https://www.notion.so/dscmcmasteru/DSC-McMasterU-Wiki-f39c9ea5e7b141fba08cfc01588d92c4" class="w-full flex items-center justify-center px-8 py-3 border border-transparent leading-6 font-medium rounded-md text-indigo-800 bg-teal-600 hover:text-white hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-400 ease-in-out md:py-4 md:text-lg md:px-10">
+				  Wiki
+				</a>
+			  </div>
+          </div>
+        </div>
+	  </main>
+	  <section id="contact" class="contact-section object-bottom ">
+		<div class="contact-links flex space-x-8">
+		  <a
+			href="https://www.facebook.com/DSCMcMasterU"
+			target="_blank"
+			class="btn contact-details"
+			><i class="fab fa-facebook-square"></i></a
+		  >
+		  <a
+			id="profile-link"
+			href="https://www.instagram.com/dscmcmasteru"
+			target="_blank"
+			class="btn contact-details"
+			><i class="fab fa-instagram"></i></a
+		  >
+		  <a
+			href="https://www.linkedin.com/company/dscmcmasteru/"
+			target="_blank"
+			class="btn contact-details"
+			><i class="fab fa-linkedin"></i></a
+		  >
+		  <a href="mailto:dsc.mcmasteru@gmail.com" class="btn contact-details"
+			><i class="fas fa-at"></i> Send an email</a
+		  >
+		</div>
+	  </section>
+    </div>
+  </div>
+
+  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="../images/image.png" alt="">
+  </div>
+</div>
 </body>
+
 </html>
